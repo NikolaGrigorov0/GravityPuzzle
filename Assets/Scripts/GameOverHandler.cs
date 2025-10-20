@@ -13,14 +13,12 @@ public class GameOverHandler : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         gameOverUI.SetActive(false);
-        Debug.Log("start DETECTED");
     }
 
     void Update()
     {
         if (!isGameOver && player.position.y < fallY)
         {
-            Debug.Log("FALL DETECTED");
             ShowGameOver();
         }
     }
