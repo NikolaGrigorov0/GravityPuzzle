@@ -485,7 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e9cfb15523ed348becf79449a87ccc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 15.03
+  moveSpeed: 15
   jumpForce: 12
   GroundCheck: {fileID: 1708166442}
   groundRadius: 0.2
@@ -507,7 +507,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 3.01
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
